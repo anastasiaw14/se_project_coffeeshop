@@ -27,7 +27,7 @@
   display: flex;
   justify-content: flex-end;
 }
-.nav__link {
+.nav__links {
   list-style: none;
   display: flex;
   align-items: center;
@@ -38,6 +38,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+.nav__link {
 }
 .header__title {
   max-width: 729px;
@@ -128,6 +130,7 @@
   column-gap: 40px;
   padding-bottom: 24px;
   flex-direction: column;
+  border: none;
 }
 .recipes__video-captions {
   font-family: "Inter", Arial, sans-serif;
