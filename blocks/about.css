@@ -1,0 +1,63 @@
+.about {
+  background-color: #0a2850;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+}
+.about__title {
+  display: flex;
+  z-index: 1;
+  margin: 100px 0 0 80px;
+  position: relative;
+  max-width: 251px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+}
+.about__content {
+  display: flex;
+  row-gap: 20px;
+  position: relative;
+  margin: 119px 80px 173px auto;
+  max-width: 660px;
+  z-index: 1;
+  flex-direction: column;
+}
+.about__paragraph {
+  margin: 0;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.about__circle {
+  height: 426px;
+  width: 426px;
+  left: -129px;
+  top: -152px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+}
+.about__circle_animation-blurred {
+  opacity: 0;
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
