@@ -44,17 +44,16 @@
   z-index: 0;
 }
 .about__circle_animation-blurred {
-  opacity: 0;
   animation: pulsate 1.3s ease-in-out infinite;
 }
 @keyframes pulsate {
   0% {
     opacity: 0;
-    transform: scale(1);
+    transform: 1;
   }
   50% {
     opacity: 0.6;
-    transform: scale(1);
+    transform: 1;
   }
   100% {
     opacity: 0;

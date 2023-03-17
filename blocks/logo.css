@@ -2,7 +2,6 @@
   position: absolute;
   width: 125px;
   height: 142px;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-bottom: 80px;
+  top: 30px;
+  left: 30px;
 }
