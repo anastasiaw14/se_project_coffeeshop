@@ -13,14 +13,13 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
+  padding: 0;
 }
 .nav__link {
   color: #000;
   text-decoration: none;
-  opacity: 100%;
-  transition: opacity 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 .nav__link:hover {
   color: #2f80ed;
-  opacity: 70%;
 }

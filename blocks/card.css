@@ -2,8 +2,7 @@
   width: 540px;
 }
 .card__title {
-  padding-bottom: 32px;
-  padding-left: 0px;
+  margin: 0 0 32px 0;
   display: flex;
   justify-content: flex-start;
   font-family: "Inter", Arial, sans-serif;
@@ -11,6 +10,10 @@
   font-size: 20px;
   line-height: 30px;
   list-style: none;
+}
+.card__list {
+  margin: 0;
+  padding: 0;
 }
 .card__list-item {
   list-style: none;
